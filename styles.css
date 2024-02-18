@@ -1,0 +1,77 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling header */
+header {
+    background-image: url('feature.jpg'); /* Add background image */
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling hero section */
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('header.jpg'); /* Add background image */
+    background-size: cover;
+    color: #fff;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2f2d2d;
+    color: #f9f4f4;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styling features section */
+#features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #0f0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
